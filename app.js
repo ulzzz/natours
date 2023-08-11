@@ -29,6 +29,6 @@ app.use((req, res, next) => {
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
 
-// 4.) SERVERR
+// 4.) SERVER
 
 module.exports = app;
